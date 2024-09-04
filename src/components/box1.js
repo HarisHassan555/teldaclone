@@ -8,14 +8,14 @@ export default function box1() {
     <div className="flex flex-col justify-center text-center pt-14 bg-gradient-to-b from-neutral-200 to-white">
       <p className="mb-2 text-6xl font-bold">Pay Everywhere.</p>
       <p className="mt-2 text-6xl font-bold">Get paid by everyone.</p>
-      <p className="mt-10 text-2xl font-normal">
+      <p className="mt-10 text-2xl font-normal px-3 lg:px-0">
         The simplest way to <b>send</b>, <b>spend</b> & <b>save</b> money.
       </p>
       <p className="mt-10 text-center self-center py-2 px-4 text-2xl rounded-3xl bg-gradient-to-r from-blue-500 to-emerald-500 text-white">
         Get started
       </p>
       <img
-        className="w-[26rem] h-[16rem] self-center mt-16"
+        className="w-[16rem] h-[10rem] lg:w-[26rem] lg:h-[16rem] self-center mt-16"
         src={img1}
         alt="Logo"
       />

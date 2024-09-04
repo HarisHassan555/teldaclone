@@ -10,7 +10,7 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <div className="App bg-neutral-200">
+    <div className="App overflow-hidden bg-neutral-200">
       <Navbar/>
       <Box1/>
       <Features/>

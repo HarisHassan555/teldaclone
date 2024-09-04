@@ -5,7 +5,7 @@ import mc from "../assets/mastercard.png";
 
 export default function bottom() {
   return (
-    <div className="flex flex-col justify-center items-center py-[5rem] bg-white w-auto">
+    <div className="flex flex-col justify-center items-center py-[5rem] bg-white">
       <p className="text-lg">
         Telda is regulated by the Central Bank of Egypt and in partnership with
         Banque Du Caire & Mastercard

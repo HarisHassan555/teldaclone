@@ -12,7 +12,7 @@ export default function Box2() {
   return (
     <div className='overflow-x-hidden bg-white'>
     <div className="flex flex-row justify-between items-center mb-16 mt-8">
-      <p className="text-7xl lg:text-8xl font-bold ml-20 w-24">Powerful Account.</p>
+      <p className="text-4xl lg:text-8xl font-bold lg:ml-20 w-24">Powerful Account.</p>
       <motion.div
         ref={elementRef}
         className="flex"
@@ -44,7 +44,7 @@ export default function Box2() {
       >
         <img className='h-[26rem] lg:h-[35rem]' src={sliding2} alt="Sliding1" />
       </motion.div>
-      <p className="text-7xl lg:text-8xl font-bold mr-80 w-24">Sleek Card.</p>
+      <p className="text-4xl lg:text-8xl font-bold lg:mr-80 w-24">Sleek Card.</p>
     </div>
     </div>
   );
